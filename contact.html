@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="index.html">
+                    <img src="Assets/Img/signature1.png" alt="Picasso Signature" width="200" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-center">
+                        <a class="nav-link" href="index.html">Qui suis-je</a>
+                        <a class="nav-link" href="gallery.html">Ma Gallerie</a>
+                        <a class="nav-link active" href="contact.html">Me Contacter</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <p class="text-center text-dark fs-2 pb-5 pt-5">Me contacter</p>
+
+
+        <div class="container">
+            <form>
+                <div class="row m-5">
+                    <div class="col-lg-6 pt-5 pb-5 border border-dark rounded-2">
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Objet</label>
+                            <input name="subject" type="text" class="form-control" id="subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastname" class="form-label">Nom</label>
+                            <input name="lastname" type="text" class="form-control" id="lastname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">Prénom</label>
+                            <input name="firstname" type="text" class="form-control" id="firstname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mail" class="form-label">Email</label>
+                            <input name="mail" type="email" class="form-control" id="mail">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text">Commentaires</span>
+                            <textarea class="form-control"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <iframe class="border border-dark rounded-2"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83997.20234996104!2d2.292247158203125!3d48.8598775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e0142746b4b%3A0xc191da9af2fc6df7!2sMus%C3%A9e%20National%20Picasso-Paris!5e0!3m2!1sfr!2sfr!4v1619007404429!5m2!1sfr!2sfr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="text-center m-5">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Envoyer
+                    </button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Merci pour votre intérêt</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Votre message a bien été envoyé !
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">X Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+        </form>
+        <div class="row" id="box-search">
+            <div class="footer text-center">
+                <img src="Assets/Img/footer.jpg" alt="footer" class="img-fluid">
+                <div class="caption">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
